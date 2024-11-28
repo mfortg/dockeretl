@@ -120,7 +120,7 @@ def generate_and_battle_teams() -> None:
                 print("\n¡Es un empate!")
 
             if winner_team:
-                    folder = "Equipo Ganador"
+                    folder = "/app/equipo_ganador"
                     for pokemon in winner_team:
                         download_pokemon_image(pokemon, folder)
         else:
